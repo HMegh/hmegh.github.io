@@ -1,0 +1,297 @@
+<!doctype html><!-- This site was created with Wowchemy. https://www.wowchemy.com --><!-- Last Published: November 26, 2022 --><html lang=en-us><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=x-ua-compatible content="IE=edge"><meta name=generator content="Wowchemy 5.7.0 for Hugo"><link rel=preconnect href=https://fonts.gstatic.com crossorigin><link rel=preload as=style href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather&family=Roboto+Mono&display=swap"><link rel=stylesheet href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather&family=Roboto+Mono&display=swap" media=print onload='this.media="all"'><script src=/js/mathjax-config.js></script>
+<link rel=stylesheet href=/css/vendor-bundle.min.16f785cdb553c8c4431db6775122af35.css media=print onload='this.media="all"'><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/academicons@1.9.2/css/academicons.min.css integrity="sha512-KlJCpRsLf+KKu2VQa5vmRuClRFjxc5lXO03ixZt82HZUk41+1I0bD8KBSA0fY290ayMfWYI9udIqeOWSu1/uZg==" crossorigin=anonymous media=print onload='this.media="all"'><script src=https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js integrity crossorigin=anonymous async></script>
+<link rel=stylesheet href=/css/wowchemy.daba28c8bb71020583563c5a2313e059.css><link rel=stylesheet href=/css/libs/chroma/github-light.min.css title=hl-light media=print onload='this.media="all"'><link rel=stylesheet href=/css/libs/chroma/dracula.min.css title=hl-dark media=print onload='this.media="all"' disabled><meta name=author content="Haroun Meghaichi"><meta name=description content="Exercise: Without using the table, find the Laplace transform of $f(t)=t^2$ and $g(t)=t^3$.
+(Hint: use integration by parts).
+Solution We start with $\mathcal{L}\left\{f(t)\right\}$:
+$$\begin{aligned} F(s)= \int_0^{\infty} t^2e^{-st}\ dt&=\bigg[\frac{-t^{2}e^{- st}}{s}\bigg]_0^{\infty} +\frac{2}{s}\int_0^{\infty}t e^{- s t}\ dt \\ &=\frac{2}{s}\int_0^{\infty}te^{- s t}\ dt \\ &=\frac{2}{s}\left(\bigg[\frac{-te^{- st}}{s}\bigg]_0^{\infty} +\frac{1}{s}\int_0^{\infty} e^{- s t}\ dt \right)\\ &=\frac{2}{s^2}\int_0^{\infty}e^{- s t} \ dt\\ &=\frac{2}{s^3}."><link rel=alternate hreflang=en-us href=https://hmegh.github.io/post/op-methods-problem-bank/><link rel=canonical href=https://hmegh.github.io/post/op-methods-problem-bank/><link rel=manifest href=/manifest.webmanifest><link rel=icon type=image/png href=/media/icon_hu48124697df742d6fcd2957f63ead0d36_126433_32x32_fill_lanczos_center_3.png><link rel=apple-touch-icon type=image/png href=/media/icon_hu48124697df742d6fcd2957f63ead0d36_126433_180x180_fill_lanczos_center_3.png><meta name=theme-color content="#795548"><meta property="twitter:card" content="summary"><meta property="twitter:image" content="https://hmegh.github.io/media/icon_hu48124697df742d6fcd2957f63ead0d36_126433_512x512_fill_lanczos_center_3.png"><meta property="og:site_name" content="Haroun Meghaichi"><meta property="og:url" content="https://hmegh.github.io/post/op-methods-problem-bank/"><meta property="og:title" content="Op methods problem bank | Haroun Meghaichi"><meta property="og:description" content="Exercise: Without using the table, find the Laplace transform of $f(t)=t^2$ and $g(t)=t^3$.
+(Hint: use integration by parts).
+Solution We start with $\mathcal{L}\left\{f(t)\right\}$:
+$$\begin{aligned} F(s)= \int_0^{\infty} t^2e^{-st}\ dt&=\bigg[\frac{-t^{2}e^{- st}}{s}\bigg]_0^{\infty} +\frac{2}{s}\int_0^{\infty}t e^{- s t}\ dt \\ &=\frac{2}{s}\int_0^{\infty}te^{- s t}\ dt \\ &=\frac{2}{s}\left(\bigg[\frac{-te^{- st}}{s}\bigg]_0^{\infty} +\frac{1}{s}\int_0^{\infty} e^{- s t}\ dt \right)\\ &=\frac{2}{s^2}\int_0^{\infty}e^{- s t} \ dt\\ &=\frac{2}{s^3}."><meta property="og:image" content="https://hmegh.github.io/media/icon_hu48124697df742d6fcd2957f63ead0d36_126433_512x512_fill_lanczos_center_3.png"><meta property="og:locale" content="en-us"><meta property="article:published_time" content="2022-10-27T00:00:00+00:00"><meta property="article:modified_time" content="2022-10-27T00:00:00+00:00"><script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://hmegh.github.io/post/op-methods-problem-bank/"},"headline":"Op methods problem bank","datePublished":"2022-10-27T00:00:00Z","dateModified":"2022-10-27T00:00:00Z","author":{"@type":"Person","name":"Haroun Meghaichi"},"publisher":{"@type":"Organization","name":"Haroun Meghaichi","logo":{"@type":"ImageObject","url":"https://hmegh.github.io/media/icon_hu48124697df742d6fcd2957f63ead0d36_126433_192x192_fill_lanczos_center_3.png"}},"description":"Exercise: Without using the table, find the Laplace transform of $f(t)=t^2$ and $g(t)=t^3$.\n(Hint: use integration by parts).\nSolution We start with $\\mathcal{L}\\left\\{f(t)\\right\\}$:\n$$\\begin{aligned} F(s)= \\int_0^{\\infty} t^2e^{-st}\\ dt\u0026amp;=\\bigg[\\frac{-t^{2}e^{- st}}{s}\\bigg]_0^{\\infty} +\\frac{2}{s}\\int_0^{\\infty}t e^{- s t}\\ dt \\\\ \u0026amp;=\\frac{2}{s}\\int_0^{\\infty}te^{- s t}\\ dt \\\\ \u0026amp;=\\frac{2}{s}\\left(\\bigg[\\frac{-te^{- st}}{s}\\bigg]_0^{\\infty} +\\frac{1}{s}\\int_0^{\\infty} e^{- s t}\\ dt \\right)\\\\ \u0026amp;=\\frac{2}{s^2}\\int_0^{\\infty}e^{- s t} \\ dt\\\\ \u0026amp;=\\frac{2}{s^3}."}</script><title>Op methods problem bank | Haroun Meghaichi</title></head><body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents class=page-wrapper data-wc-page-id=bb1d211e9d0344a21e578933ba356251><script src=/js/wowchemy-init.min.2bb937f129e5d9a1df7980a60ff6010c.js></script><aside class=search-modal id=search><div class=container><section class=search-header><div class="row no-gutters justify-content-between mb-3"><div class=col-6><h1>Search</h1></div><div class="col-6 col-search-close"><a class=js-search href=# aria-label=Close><i class="fas fa-times-circle text-muted" aria-hidden=true></i></a></div></div><div id=search-box><input name=q id=search-query placeholder=Search... autocapitalize=off autocomplete=off autocorrect=off spellcheck=false type=search class=form-control aria-label=Search...></div></section><section class=section-search-results><div id=search-hits></div></section></div></aside><div class="page-header header--fixed"><header><nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id=navbar-main><div class=container-xl><div class="d-none d-lg-inline-flex"><a class=navbar-brand href=/>Haroun Meghaichi</a></div><button type=button class=navbar-toggler data-toggle=collapse data-target=#navbar-content aria-controls=navbar-content aria-expanded=false aria-label="Toggle navigation">
+<span><i class="fas fa-bars"></i></span></button><div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none"><a class=navbar-brand href=/>Haroun Meghaichi</a></div><div class="navbar-collapse main-menu-item collapse justify-content-start" id=navbar-content><ul class="navbar-nav d-md-inline-flex"><li class=nav-item><a class=nav-link href=/#about><span>Home</span></a></li><li class=nav-item><a class=nav-link href=/#publications><span>Publications</span></a></li><li class=nav-item><a class=nav-link href=/#teaching><span>Teaching</span></a></li></ul></div><ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2"><li class=nav-item><a class="nav-link js-search" href=# aria-label=Search><i class="fas fa-search" aria-hidden=true></i></a></li><li class="nav-item dropdown theme-dropdown"><a href=# class=nav-link data-toggle=dropdown aria-haspopup=true aria-label="Display preferences"><i class="fas fa-moon" aria-hidden=true></i></a><div class=dropdown-menu><a href=# class="dropdown-item js-set-theme-light"><span>Light</span></a>
+<a href=# class="dropdown-item js-set-theme-dark"><span>Dark</span></a>
+<a href=# class="dropdown-item js-set-theme-auto"><span>Automatic</span></a></div></li></ul></div></nav></header></div><div class=page-body><article class=article><div class="article-container pt-3"><h1>Op methods problem bank</h1><div class=article-metadata><span class=article-date>Oct 27, 2022</span>
+<span class=middot-divider></span>
+<span class=article-reading-time>12 min read</span></div></div><div class=article-container><div class=article-style><p><strong>Exercise:</strong> Without using the table, find the Laplace transform of
+$f(t)=t^2$ and $g(t)=t^3$.</p><p>(Hint: use integration by parts).</p><details class=spoiler id=spoiler-0><summary>Solution</summary><p><p>We start with $\mathcal{L}\left\{f(t)\right\}$:</p><p>$$\begin{aligned}
+F(s)= \int_0^{\infty} t^2e^{-st}\ dt&=\bigg[\frac{-t^{2}e^{- st}}{s}\bigg]_0^{\infty} +\frac{2}{s}\int_0^{\infty}t e^{- s t}\ dt \\
+&=\frac{2}{s}\int_0^{\infty}te^{- s t}\ dt \\
+&=\frac{2}{s}\left(\bigg[\frac{-te^{- st}}{s}\bigg]_0^{\infty} +\frac{1}{s}\int_0^{\infty} e^{- s t}\ dt \right)\\
+&=\frac{2}{s^2}\int_0^{\infty}e^{- s t} \ dt\\
+&=\frac{2}{s^3}.
+\end{aligned}$$</p><p>Now, let us move to $\mathcal{L}\left\{g(t)\right\}$:</p><p>$$\begin{aligned}
+G(s)= \int_0^{\infty} t^3e^{-st}\ dt&=\bigg[\frac{-t^{3}e^{- st}}{s}\bigg]_0^{\infty} +\frac{3}{s}\int_0^{\infty}t^2 e^{- s t}\ dt \\
+&=\frac{3}{s}\int_0^{\infty}t^2 e^{- s t} \ dt \\
+&=\frac{3}{s}\cdot \frac{2}{s^3}= \frac{6}{s^4}.
+\end{aligned}$$</p><p><strong>Side note:</strong> There is a pattern here to be observed:</p><p>$$\mathcal{L}\left\{t^{n}\right\} =\frac{n}{s}\mathcal{L}\left\{t^{n-1}\right\}$$
+If you expand it further, you&rsquo;d get</p><p>$$\mathcal{L}\left\{t^{n}\right\} =\frac{n}{s}\cdot \frac{n-1}{s} \mathcal{L}\left\{t^{n-2}\right\}=\frac{n}{s}\cdot \frac{n-1}{s}\cdots \frac{2}{s}\mathcal{L}\left\{t\right\}=\frac{n}{s}\cdot \frac{n-1}{s}\cdots \frac{2}{s}\cdot\frac{1}{s^2}$$
+Which means that</p><p>$$\boxed{\mathcal{L}\left\{t^{n}\right\} = \frac{n(n-1)(n-2)\cdots2}{s^{n+1}}=\frac{n!}{s^{n+1}}}$$
+For any integer $n\ge 1$.</p></p></details><hr><p><strong>Exercise:</strong> Let $$f(t)=\begin{cases}
+1 &\text{ if } 0\le t\le 2\\
+\sinh(t) &\text{ if } t>2
+\end{cases}$$ Find $\mathcal{L}\left\{f(t)\right\}$ .</p><details class=spoiler id=spoiler-1><summary>Solution</summary><p><p>We start by breaking down the LT integral into two integrals</p><p>$$F(s)=\int_{0}^{\infty} f(t) e^{-s t}\ dt =\int_0^2 e^{-st}\ dt +\int_2^{\infty} \sinh(t) e^{-st}\ dt$$</p><p>We compute the two integrals separately:</p><p>$$\int_0^2 e^{-st}\ dt =\frac{1-e^{-2s}}{s}.$$</p><p>To compute the second integral, we use the definition of $\sinh(t)$
+which is $\frac{e^t-e^{-t}}{2}$ :</p><p>$$\begin{aligned}
+\int_2^{\infty} \sinh(t) e^{-st}\ dt&=\frac{1}{2}\int_2^{\infty} (e^t-e^{-t}) e^{-st}\ dt\\
+&=\frac{1}{2}\int_2^{\infty} e^t\cdot e^{-st}\ dt-\frac{1}{2}\int_2^{\infty} e^{-t}\cdot e^{-st}\ dt\\
+&=\frac{1}{2}\int_2^{\infty} e^{-(s-1)t}\ dt-\frac{1}{2}\int_2^{\infty} e^{-(s+1)t}\ dt\\
+&=\frac12\bigg[\frac{-e^{-(s-1)t}}{s-1}\bigg]_2^{\infty} -\frac12\bigg[\frac{-e^{-(s+1)t}}{s+1}\bigg]_2^{\infty}\ \
+&=\frac{1}{2}\left(\frac{e^{-2(s-1)}}{s-1}-
+\frac{e^{-2(s+1)}}{s+1}\right)
+\end{aligned}$$</p><p>Finally we have:</p><p>$$F(s)=\frac{1-e^{-2s}}{s}+\frac{1}{2}\left(\frac{e^{-2(s-1)}}{s-1}-
+\frac{e^{-2(s+1)}}{s+1}\right).$$</p><p><strong>Alternative approach to the second integral:</strong> Let us assume that
+$s>1$ and let us call the second integral $I$ ( see my comment at the
+end):</p><p>$$I=\int_2^{\infty} \sinh(t) e^{-st}\ dt$$</p><p>Apply IBP (integration by parts) to get</p><p>$$I=\bigg[\cosh(t)e^{-st}\bigg]_{2}^\infty +s\int_0^{\infty} \cosh(t)e^{- st}\ dt$$</p><p>Note that if $s>1$, we have
+$\displaystyle\lim_{t\to \infty} \cosh(t)e^{-st}=0$. Then,</p><p>$$I=-\cosh(2)e^{-2s} +s\int_2^{\infty} \cosh(t)e^{- st}\ dt$$
+We apply
+IBP again, to get</p><p>$$I=-\cosh(2)e^{-2s} +s\bigg[\sinh(t)e^{-s t}\bigg]_{2}^{\infty} +s^2\int_2^{\infty}\sinh(t)e^{- st}\ dt=-\cosh(2)e^{-2s}-s\sinh(2)e^{-2s}+s^2 I.$$</p><p>Now, we need to solve a simple linear equation to get $I$:</p><p>$$I= -\cosh(2)e^{-2s}-s\sinh(2)e^{-2s}+s^2 I$$
+we have</p><p>$$\boxed{I=\frac{\cosh(2)+s \sinh(2)}{s^2-1}e^{-2s}.}$$</p></p></details><hr><p><strong>Exercise:</strong> Find the inverse Laplace transform of the following
+functions</p><ol><li><p>$\displaystyle
+\frac{s+2}{s^2}.$</p></li><li><p>$\displaystyle\frac{2s+1}{s^2+s}.$</p></li></ol><details class=spoiler id=spoiler-2><summary>Solution</summary><p><ol><li><p>$$\mathcal{L}^{-1}\left\{\frac{s+2}{s^2}\right\}= \mathcal{L}^{-1}\left\{\frac{1}{s}\right\}+2\mathcal{L}^{-1}\left\{\frac{1}{s^2}\right\}= 1+2t.$$</p></li><li><p>First, we need to apply a partial fraction decomposition. There are
+(at least) two ways to do it:</p><ol><li><p>We try to find $a,b$ such that</p><p>$$\frac{2s+1}{s^2+s} =\frac{2s+1}{s(s+1)} = \frac{a}{s}+\frac{b}{s+1}= \frac{(a+b)s+a}{s(s+1)}$$
+This leads to a simple system $\begin{cases}a+b=2\\a=1
+\end{cases}$, the solution is $a=b=1$.</p></li><li><p>With a simple rearrangement, we have</p><p>$$\frac{2s+1}{s^2+s} =\frac{2s+1}{s(s+1)}=
+\frac{s+1}{s(s+1)}+\frac{s}{s(s+1)}=\frac{1}{s}+\frac{1}{s+1}$$</p></li></ol><p>Now, we go back to the ILT:</p><p>$$\mathcal{L}^{-1}\left\{\frac{2s+1}{s(s+1)}\right\}=\mathcal{L}^{-1}\left\{\frac{1}{s}\right\}+\mathcal{L}^{-1}\left\{\frac{1}{s+1}\right\}=1+e^{-t}$$</p></li></ol></p></details><hr><p><strong>Exercise:</strong> Consider the following function $f$:</p><p>$$f(x)=\begin{cases}
+1,\qquad & 0\le t\le 1, \
+(2-t)e^{1-t}, \qquad & 1&lt;t\le 2,\\
+0,\qquad &t>2
+\end{cases}$$</p><p>Find $F(s)$. <em>Hint:</em> Break the integral into two.</p><details class=spoiler id=spoiler-3><summary>Solution</summary><p><p>Break the integral into</p><p>$$\int_0^\infty f(t)e^{-st}\ dt= \int_0^1 e^{-st}\ dt+\int_1^2 (2-t)e^{1-t}e^{-st}\ dt.$$</p><p>The first integral is easy</p><p>$$\int_0^1 e^{-st}\ dt= \frac{1-e^{-s}}{s}.$$</p><p>To evaluate the second integral, we use integration by part</p><p>$$\begin{aligned}
+\int_1^2 (2-t)e^{1-t}e^{-st}\ dt& =\int_1^2 (2-t)e^{1-(s+1)t}\ dt\\
+&= \left[ \frac{(2-t)e^{1-(s+1)t}}{-(s+1)}\right]_1^2 -\frac{1}{(s+1)^2} \int_1^2 e^{1-(s+1)t}\ dt\
+&=\frac{e^{-s}}{s+1} -\frac{e^{-s}-e^{-2s-1}}{(s+1)^2}.
+\end{aligned}$$</p><p>The final answer is</p><p>$$\frac{1-e^{-s}}{s}+\frac{e^{-s}}{s+1} -\frac{e^{-s}-e^{-2s-1}}{(s+1)^2}$$</p></p></details><hr><p><strong>Exercise:</strong> Let $a,b,c$ be positive real numbers such that $a&lt;b$,
+find the Laplace transform of the following function</p><p>$$f(x)=\begin{cases}
+c,\qquad & \text{ if } a\le x\le b, \\
+0, \qquad & \text{otherwise}.
+\end{cases}$$</p><p><em>Food for thought (will not be graded):</em> Would your answer change if
+$c&lt;0$? Would it change if $a$ and/or $b$ are negative?</p><details class=spoiler id=spoiler-4><summary>Solution</summary><p><p>We have</p><p>$$\begin{aligned}
+\int_0^\infty f(t) e^{-s t}\ dt& = \int_0^a0 e^{-st} \ dt+ \int_a^b c e^{-st} \ dt+\int_b^\infty 0 e^{-st} \ dt\\
+&= c\int_a^b e^{-s t}\ dt \\
+&= c\left(\frac{e^{-as}-e^{-b s}}{s}\right).
+\end{aligned}$$</p><p><strong>Notes:</strong> The answer will not change if $c&lt;0$. However, if $a&lt;0&lt;b$,
+then
+$$F(s)=\int_0^b c e^{-s t}\ dt= c\left(\frac{1-e^{-s t}}{s}\right).$$
+Also, if $b&lt;0$, then $F(s)=0$ for all $s$.</p></p></details><hr><p><strong>Exercise:</strong> Find the Laplace transform of
+$\displaystyle f(t)=\cos\left(t- \frac{\pi}{3}\right)$.</p><details class=spoiler id=spoiler-5><summary>Solution</summary><p><p>Use the trig identity:</p><p>$$\boxed{\cos(a-b)=\sin(a)\sin(b)+\cos(a)\cos(b)}$$
+to get</p><p>$$\begin{aligned}
+F(s)&=\mathcal{L}\left\{\cos\left(t-\frac{\pi}{6}\right)\right\}\\\\
+&=\mathcal{L}\left\{\sin(t)\sin\left(\frac{\pi}{3}\right)+\cos(t)\cos\left(\frac{\pi}{3}\right)\right\}\\\\
+&= \mathcal{L}\left\{\frac{\sqrt{3}}{2} \sin(t)+\frac{1}{2}\cos(t)\right\}\\\\
+&=\frac{\sqrt{3}}{2} \mathcal{L}\left\{\sin(t)\right\}+\frac{1}{2} \mathcal{L}\left\{\cos(t)\right\} \\\\
+&=\frac{\sqrt{3}}{2}\cdot \frac{1}{s^2+1} +\frac{1}{2}\cdot \frac{s}{s^2+1}\\\\
+&= \frac{\sqrt{3}+s}{2(s^2+1)}.
+\end{aligned}$$</p></p></details><hr><p><strong>Exercise:</strong> Find the Laplace transform of
+$\displaystyle f(t)=\sin\left(t- \frac{\pi}{6}\right)$.</p><details class=spoiler id=spoiler-6><summary>Solution</summary><p><p>Use the trig identity:</p><p>$$\boxed{\sin(a-b)=\sin(a)\cos(b)-\sin(b)\cos(a)}$$
+to get
+$$\begin{aligned}
+F(s)&=\mathcal{L}\left\{\sin\left(t-\frac{\pi}{6}\right)\right\}\\\\
+&=\mathcal{L}\left\{\sin(t)\cos\left(\frac{\pi}{6}\right)-\cos(t)\sin\left(\frac{\pi}{6}\right)\right\}\\\\
+&= \mathcal{L}\left\{\frac{\sqrt{3}}{2} \sin(t)-\frac{1}{2}\cos(t)\right\}\\\\
+&=\frac{\sqrt{3}}{2} \mathcal{L}\left\{\sin(t)\right\}-\frac{1}{2} \cos(t) \\\\
+&=\frac{\sqrt{3}}{2}\cdot \frac{1}{s^2+1} -\frac{1}{2}\cdot \frac{s}{s^2+1}\\\\
+&= \frac{\sqrt{3}-s}{2(s^2+1)}.
+\end{aligned}$$</p><p><strong>Note:</strong> There is at least three other ways to do this:</p><ol><li><p>You can integrate by parts twice, you just need to be careful about
+evaluating at zero correctly.</p></li><li><p>You can use complex numbers: evaluate
+$\displaystyle\int_0^{\infty} e^{i\left(t-\frac{\pi}{6}\right)}e^{-s t}\ dt$,
+then take the imaginary part of the result (think about Euler
+identity $e^{i\theta}=\cos(\theta)+i\sin(\theta)$).</p></li><li><p>Make a u-sub: $u=t-\frac{\pi}{6}$ and use the antiderivative of
+$\sin(u)e^{- su}$ that we "kind of" derived in the notes.</p></li></ol></p></details><hr><p><strong>Exercise:</strong> Find the inverse Laplace transform of the following
+functions\</p><ol><li><p>$\displaystyle\frac{1}{3s^2-18}$</p></li><li><p>$\displaystyle\frac{1}{s^2+s-20}.$</p></li><li><p>$\displaystyle\frac{1}{s^2+2s+1}$.</p></li><li><p>$\displaystyle\frac{1}{s^2+2s+2}$.</p></li><li><p>$\displaystyle\frac{1}{s^2+2s+5}$.</p></li><li><p>$\displaystyle\frac{e^{-3s}}{s^2+2s+5}$.</p></li><li><p>$\displaystyle
+\frac{1-3s^2-5s}{s(s+1)^2+s}$</p></li><li><p>$\displaystyle\frac{1-e^{-2s}}{s(s^2+1)}$</p></li><li><p>$\displaystyle\frac{1}{s^2+2s-15}$.</p></li><li><p>$\displaystyle\frac{1}{s^2+2s+10}$.</p></li><li><p>$\displaystyle\frac{1-3s^2-4s}{s(s+1)^2+s}$</p></li></ol><details class=spoiler id=spoiler-7><summary>Solution</summary><p><ol><li><p>We have</p><p>$$\frac{1}{3s^2-18} = \frac{1}{3}\left(\frac{1}{s^2-6}\right) =\frac{1}{3\sqrt{6}}\left(\frac{\sqrt{6}}{s^2-(\sqrt{6})^2}\right)$$
+Therefore,</p><p>$$\mathcal{L}^{-1}\left\{\frac{1}{3s^2-18}\right\}= \frac{1}{3\sqrt{6}}\mathcal{L}^{-1}\left\{\frac{\sqrt{6}}{s^2-(\sqrt{6})^2}\right\}= \frac{1}{3\sqrt{6}}\sinh\left(t\sqrt{6}\right)$$</p></li><li><p>We apply PFD to the given fraction</p><p>$$\frac{1}{s^2+s-20}=\frac{1}{(s+5)(s-4)}=
+\frac{a}{s+5}+\frac{b}{s-4}=\frac{(a+b)s-4a+5b}{(s+5)(s-4)}.$$</p><p>Which leads to the system</p><p>$$\begin{cases}
+a+b=0,\\
+-4a+5b=1,\end{cases}
+\overset{4(1)+(2)}{\Longrightarrow} 9b=1\Rightarrow b=\frac{1}{9}\Rightarrow a=\frac{-1}{9}.$$</p><p>Therefore</p><p>$$\mathcal{L}^{-1}\left\{\frac{1}{s^2+s-20}\right\} =-\frac{1}{9}\mathcal{L}^{-1}\left\{\frac{1}{s+5}\right\}+\frac{1}{9}\mathcal{L}^{-1}\left\{\frac{1}{s-4}\right\}= \frac{-e^{-5t}+e^{4t}}{9}.$$</p></li><li><p>We have</p><p>$$\frac{1}{s^2+2s+1}=\frac{1}{(s+1)^2}$$
+Using the 1st translation
+theorem, we get</p><p>$$\mathcal{L}^{-1}\left\{\frac{1}{(s+1)^2}\right\} =\mathcal{L}^{-1}\left\{\frac{1}{s^2}\right\} e^{-t} =t e^{-t}$$</p></li><li><p>Complete the square</p><p>$$\frac{1}{s^2+2s+2}=\frac{1}{(s+1)^2+1}$$</p><p>Apply the second translation theorem</p><p>$$\mathcal{L}^{-1}\left\{\frac{1}{(s+1)^2+1}\right\}= \mathcal{L}^{-1}\left\{\frac{1}{s^2+1}\right\}e^{-t}=\sin(t) e^{-t}$$</p></li><li><p>Check example 3 for more details. We have</p><p>$$\frac{1}{s^2+2s+5}= \frac{1}{(s+1)^2+2^2}$$
+Apply the second
+translation theorem</p><p>$$\mathcal{L}^{-1}\left\{\frac{1}{(s+1)^2+2^2}\right\}=\mathcal{L}^{-1}\left\{\frac{1}{s^2+2^2}\right\}e^{-t}=\frac{1}{2}\sin(2t)e^{-t}.$$</p></li><li><p>Use the previous ILT and the second translation theeorem to get</p><p>$$\mathcal{L}^{-1}\left\{\frac{e^{-3s}}{(s+1)^2+2^2}\right\}=\frac{1}{2}\sin(2(t-3))e^{-(t-3)}\mathscr{U}(t-3).$$</p></li><li><p>We need to factor the denominator first and then apply PFD</p><p>$$\begin{aligned}
+F(s)= \frac{1-3s^2-5s}{s(s+1)^2+s}&= \frac{1-3s^2-5s}{s((s+1)^2+1)}= \frac{a}{s}+\frac{bs+c}{(s+1)^2+1}\\
+&=\frac{(a+b)s^2+(2a+c)s+2a}{s((s+1)^2+1)}
+\end{aligned}$$</p><p>By comparing the coefficients, we get</p><p>$$\begin{cases}
+2a=1\\2a+c=-5\\a+b=-3
+\end{cases}\Longrightarrow \begin{cases}
+a=\frac{1}{2}\\b=\frac{-7}{2}\\c=-6.
+\end{cases}$$</p><p>Thus,
+$$F(s)=\frac{1}{2s}+\frac{\frac{-7}{2} s-6}{(s+1)^2+1}=\frac{1}{2s}+\frac{\frac{-7}{2} s-\frac{7}{2}}{(s+1)^2+1}+\frac{-\frac{5}{2}}{(s+1)^2+1}$$</p><p>So,</p><p>$$F(s)=\frac{1}{2s}-\frac{7}{2}\cdot \frac{s+1}{(s+1)^2+1}-\frac{5}{2}\cdot \frac{1}{(s+1)^2+1}$$
+The inverse LT of the first term is easy, to the find the other two
+inverse LTs we need to use the first translation theorem.</p><p>$$f(t)=\frac{1}{2} -\frac{7}{2}\cos(t)e^{-t}-\frac{5}{2}\sin(t) e^{-t}.$$</p></li><li><p>You can always perform a PFD like we did in the previous example but
+there is a shortcut here</p><p>$$\frac{1}{s(s^2+1)}=s \frac{s^2}{s^2(s^2+1)}= s \frac{(s^2+1)-s^2}{s^2(s^2+1)}=s\frac{1}{s^2}-s \frac{1}{s^2+1}=\frac{1}{s}-\frac{s}{s^2+1}.$$</p><p>Now, we have</p><p>$$\frac{1-e^{-2s}}{s(s^2+1)}= \left(\frac{1}{s}-\frac{s}{s^2+1}\right) -\left(\frac{1}{s}-\frac{s}{s^2+1}\right)e^{-2s}$$</p><p>The first part is easy, you need to apply the 2nd translation
+theorem to the second one to get</p><p>$$1-\cos(t) -\left(1-\cos(t-2)\right) \mathscr{U}(t-2)$$</p></li><li><p>We have
+$$\displaystyle\frac{1}{s^2+2s-15}=\frac{1}{(s+5)(s-3)}=\frac{a}{s+5}+\frac{b}{s-3}= \frac{(a+b)s+(5b-3a)}{(s+5)(s-3)}$$</p><p>We have $a+b=0$ and $5b-3a=1$ which leads to $a=\frac{-1}{8}$ and
+$b=\frac{1}{8}$. Therefore</p><p>$$\mathcal{L}^{-1}\left\{\frac{1}{s^2+2s-15}\right\} = \frac{e^{3t}-e^{-5t}}{8}.$$</p><p><strong>Note:</strong> There is another way to do this using the translation
+theorem:
+$$\mathcal{L}^{-1}\left\{\frac{1}{s^2+2s-15}\right\}=\mathcal{L}^{-1}\left\{\frac{1}{(s+1)^2-4^2}\right\}=\frac{1}{4}
+\mathcal{L}^{-1}\left\{\frac{4}{(s+1)^2-4^2}\right\}=\frac{1}{4}\sinh(4t)e^{-t}.$$</p></li><li><p>We have
+$$\mathcal{L}^{-1}\left\{\frac{1}{s^2+2s+10}\right\}=\mathcal{L}^{-1}\left\{\frac{1}{(s+1)^2+3^2}\right\}=\frac{1}{3}\sin(3t)e^{-t}.$$</p></li><li><p>We need to factor the denominator first and then apply PFD</p><p>$$\begin{aligned}
+F(s)= \frac{1-3s^2-4s}{s(s+1)^2+s}&= \frac{1-3s^2-4s}{s((s+1)^2+1)}= \frac{a}{s}+\frac{bs+c}{(s+1)^2+1}\\
+&=\frac{(a+b)s^2+(2a+c)s+2a}{s((s+1)^2+1)}
+\end{aligned}$$</p><p>By comparing the coefficients, we get</p><p>$$\begin{cases}
+2a=1\\2a+c=-4\\a+b=-3
+\end{cases}\Longrightarrow \begin{cases}
+a=\frac{1}{2}\\b=\frac{-7}{2}\\c=-5.
+\end{cases}$$</p><p>Thus,
+$$F(s)=\frac{1}{2s}+\frac{\frac{-7}{2} s-6}{(s+1)^2+1}=\frac{1}{2s}+\frac{\frac{-7}{2} s-\frac{7}{2}}{(s+1)^2+1}+\frac{-\frac{3}{2}}{(s+1)^2+1}$$</p><p>So,</p><p>$$F(s)=\frac{1}{2s}-\frac{7}{2}\cdot \frac{s+1}{(s+1)^2+1}-\frac{3}{2}\cdot \frac{1}{(s+1)^2+1}$$
+The inverse LT of the first term is easy, to the find the other two
+inverse LTs we need to use the first translation theorem.</p><p>$$f(t)=\frac{1}{2} -\frac{7}{2}\cos(t)e^{-t}-\frac{3}{2}\sin(t) e^{-t}.$$</p></li></ol></p></details><hr><p><strong>Exercise:</strong> Solve the following differential equations using Laplace
+transform:</p><ol><li><p>$\displaystyle y&rsquo;(t)+y(t)=\cos(3t),\qquad y(0)=0.$</p></li><li><p>$\displaystyle y&rsquo;&rsquo;(t)+y(t)=\cos(3t),\qquad y(0)=1,y&rsquo;(0)=2.$</p></li><li><p>$\displaystyle y&rsquo;&rsquo;(t)-4y&rsquo;(t)+4y(t)=\cos(2t),\qquad y(0)=0,\ y&rsquo;(0)=1.$</p></li><li><p>$\displaystyle y&rsquo;(t)-y(t)=\cosh(3t),\qquad y(0)=0.$</p></li><li><p>$\displaystyle y&rsquo;&rsquo;(t)-2y&rsquo;(t)+5y(t)=\cos(2t),\qquad y(0)=0,\ y&rsquo;(0)=1.$</p></li></ol><details class=spoiler id=spoiler-8><summary>Solution</summary><p><ol><li><p>There are three steps:</p><ol><li><p>Apply LT to both sides $$sY(s)-0 +Y(s)=\frac{s}{s^2+9}$$</p></li><li><p>Solve for $Y(s)$: $$Y(s)=\frac{s}{(s+1)(s^2+9)}$$</p></li><li><p>Apply the ILT: First, start with the PFD</p><p>$$\frac{s}{(s+1)(s^2+9)}=\frac{a}{s+1}+\frac{bs+c}{s^2+9}=\frac{(a+b)s^2+(b+c)s+9a+c}{(s+1)(s^2+9)}\longrightarrow\begin{cases}
+a+b=0,\
+b+c=1,\
+9a+c=0.
+\end{cases}$$ The solution to the above problem is
+$(\frac{-1}{10},\frac{1}{10},\frac{9}{10})$. Therefore,</p><p>$$Y(s)=\frac{1}{10}\left(\frac{-1}{s+1}+\frac{s}{s^2+9}+\frac{9}{s^2+9}\right).$$</p><p>Consequently,</p><p>$$y(t)=\frac{1}{10}\left(-e^{-t}+\cos(3t)+3\sin(3t)\right).$$</p></li></ol></li><li><p>We follow the same steps</p><ol><li><p>Apply LT to both sides $$s^2Y(s)-s-2+Y(s)=\frac{s}{s^2+9}$$</p></li><li><p>Solve for $Y(s)$</p><p>$$Y(s)=\frac{s}{(s^2+9)(s^2+1)} +\frac{s+2}{s^2+1}$$</p></li><li><p>Apply the ILT: First, you need to apply the PFD to the first
+fraction</p><p>$$\frac{s}{(s^2+9)(s^2+1)}=\frac{as+b}{s^2+1}+\frac{c s+d}{s^2+9}=\frac{(a+c)s^3+(b+d)s^2+(9a+c)s+9b+d}{(s^2+9)(s^2+1)}$$
+It is easy to see that $b=d=0$. After that, you have to solve a
+$2\times 2$ system to get $a=\frac{1}{8}$ and $b=\frac{-1}{8}$.
+Now, we have:</p><p>$$Y(s)=\frac{1}{8}\left(\frac{s}{s^2+1}-\frac{s}{s^2+9}\right) +\frac{s}{s^2+1}+\frac{2}{s^2+1}$$
+Which gives us</p><p>$$y(t)=\frac{1}{8}\left(\cos(t)-\cos(3t)\right)+\cos(t)+2\sin( t)$$</p><p>$$\boxed{y(t)= \frac{9}{8}\cos(t)-\frac{1}{8}\cos(3t)+2\sin(t)}$$</p></li></ol></li><li><p>I will skip the first few steps and jump right into</p><p>$$Y(s)=\frac{1}{(s-2)^2} +\frac{s}{(s-2)^2(s^2+4)}.$$ Therefore,</p><p>$$y(t)=te^{2t} +\mathcal{L}^{-1}\left\{\frac{s}{(s-2)^2(s^2+4)}\right\}$$</p><p>Apply PFD</p><p>$$\frac{s}{(s-2)^2(s^2+4)}=\frac{a}{s-2}+\frac{b}{(s-2)^2}+\frac{c s+d}{s^2+4}$$</p><p>You will get the following system</p><p>$$\begin{cases}
+a+c=0\\-2 a + b - 4 c + d=0\\4 a + 4 c - 4 d=1 \\-8 a + 4 b + 4 d=0
+\end{cases}\Longrightarrow \begin{cases}
+a=0\\b=\frac{1}{4}\\c=0\\d=-\frac{1}{4}.
+\end{cases}$$ (A good first step would be using (1) and (3) to find
+$d$). Now,</p><p>$$\frac{s}{(s-2)^2(s^2+4)}=\frac{1}{4}\left(\frac{1}{(s-2)^2}- \frac{1}{s^2+4}\right)$$</p><p>Finally, we get</p><p>$$y(t)=t e^{2 t} +\frac{1}{4} te^{2t} -\frac{1}{8} \sin(2t)=\frac{5}{4} te^{2t} -\frac{1}{8} \sin(2t)$$</p><p><strong>Note 1:</strong> You can combine the two fraction in the first line and
+work from there.</p><p><strong>Note 2:</strong> You can avoid the system by noticing that</p><p>$$\frac{s}{(s-2)^2(s^2+4)} =\frac{1}{4} \frac{4s}{(s^2-4s+4)(s^2+4)}=\frac{1}{4} \frac{(s^2+4)-(s^2-4s+4)}{(s^2-4s+4)(s^2+4)}.$$</p></li><li><p>There are three steps:</p><ol><li><p>Apply LT to both sides $$sY(s)-0 -Y(s)=\frac{s}{s^2-9}$$</p></li><li><p>Solve for $Y(s)$: $$Y(s)=\frac{s}{(s-1)(s^2-9)}$$</p></li><li><p>Apply the ILT: First, start with the PFD</p><p>$$\frac{s}{(s-1)(s^2-9)}=\frac{a}{s-1}+\frac{bs+c}{s^2-9}=\frac{(a+b)s^2+(c-b)s-9a-c}{(s-1)(s^2-9)}\longrightarrow\begin{cases}
+a+b=0,\
+c-b=1,\
+-9a-c=0.
+\end{cases}$$ The solution to the above problem is
+$(\frac{-1}{8},\frac{1}{8},\frac{9}{8})$. Therefore,</p><p>$$Y(s)=\frac{1}{8}\left(\frac{-1}{s-1}+\frac{s}{s^2-9}+\frac{9}{s^2-9}\right).$$</p><p>Consequently,</p><p>$$y(t)=\frac{1}{8}\left(-e^{t}+\cosh(3t)+3\sinh(3t)\right).$$</p><p><strong>Note:</strong> There is another way to do PFD</p><p>$$\frac{s}{(s-1)(s^2-9)} = \frac{a}{s-1}+\frac{b}{s-3}+\frac{c}{s+3}.$$
+You will get $a=\frac{-1}{8}, b= \frac{1}{4}$ and
+$c=\frac{-1}{8}$. The final answer would be</p><p>$$y(t)=\frac{1}{8}\left( -e^{t}+2e^{3t}-e^{-3t}\right).$$</p></li></ol></li><li><p>After applying LT, we get</p><p>$$(s^2-2s+5)Y(s)=\frac{s}{s^2+4}+1$$
+$$Y(s)=\frac{s}{(s^2-2s+5)(s^2+4)} +\frac{1}{s^2-2s+5}.$$ Let us
+start with the ILT of the second fraction</p><p>$$\mathcal{L}^{-1}\left\{\frac{1}{s^2-2s+5}\right\}= \mathcal{L}^{-1}\left\{\frac{1}{(s-1)^2+4}\right\}= \frac{1}{2}\sin(2t)e^t.$$
+To find the ILT of the first fraction, we need to perform a PFD
+first</p><p>$$\frac{s}{(s^2-2s+5)(s^2+4)}= \frac{a s+b}{s^2-2s+5}+ \frac{c s+d}{s^2+4}=\frac{(a+c)s^3+(b-2c+d)s^2+(4a+5c-2d)s+4b+5d}{(s^2-2s+5)(s^2+4)}.$$</p><p>This is a $4\times 4$ system but after substituting $a=-c$, we get a
+$3\times 3$ system:</p><p>$$\begin{cases}
+b-2c+d=0,\\
+c-2d=1, \\
+4b+5d=0
+\end{cases}\overset{b=2c-d}{\Longrightarrow} \begin{cases}
+c-2d=1, \\
+8c+d=0
+\end{cases}
+\longrightarrow c=\frac{1}{17},\ d=\frac{-8}{17}.$$
+From there, we
+get $a=\frac{-1}{17}, b=\frac{10}{17}$. Now, we have</p><p>$$\begin{aligned}
+\displaystyle\frac{s}{(s^2-2s+5)(s^2+4)} &=\frac{1}{17} \left(\frac{-s+10}{(s-1)^2+4} + \frac{s-8}{s^2+4}\right),\\\\
+\displaystyle&= \frac{1}{17} \left(\frac{-(s-1)}{(s-1)^2+4} +\frac{9}{(s-1)^2+4} +\frac{s}{s^2+4}-\frac{8}{s^2+4}\right)
+\end{aligned}$$</p><p>The ILT of the expression is</p><p>$$\frac{1}{17}\left( -\cos(2t)e^{t} +\frac{9}{2}\sin(2t)e^t +\cos(2t)-4\sin(2t)\right).$$</p><p>Finally,</p><p>$$\boxed{y(t)= \frac{1}{17}\left( -\cos(2t)e^{t} +\frac{9}{2}\sin(2t)e^t +\cos(2t)-4\sin(2t)\right) +\frac{1}{2}\sin(2t)e^t}$$</p></li></ol></p></details><hr><p><strong>Exercise:</strong> Apply Laplace transform to this equation and solve it for
+$Y(s)$ $$y&rsquo;&rsquo;(t)+y(t)=f(t),\qquad y(0)=0,y&rsquo;(0)=0.$$ Where</p><p>$$f(t)=\begin{cases}
+1,& 0\le t\le 2, \
+0,& t>2.
+\end{cases}$$ You do not have to apply the inverse Laplace transform.</p><details class=spoiler id=spoiler-9><summary>Solution</summary><p><p>The LT of $f$ is</p><p>$$F(s)=\int_0^2 e^{-s t}\ dt=\frac{1-e^{-s}}{s}.$$</p><p>By applying LT to both sides, we get</p><p>$$(s^2+1) Y(s)=\frac{1-e^{-2s}}{s}$$</p><p>Therefore,</p><p>$$Y(s)=\frac{1-e^{-2s}}{s(s^2+1)}$$</p></p></details><hr><p><strong>Exercise:</strong> Use Laplace transform to solve the following IVP
+$$y&rsquo;&rsquo;(t)+4y(t)=f(t),\qquad y(0)=0,y&rsquo;(0)=0.$$ Where $$f(t)=\begin{cases}
+0,& 0\le t\le 2, \
+1,& t>2.
+\end{cases}$$ <details class=spoiler id=spoiler-10><summary>Solution</summary><p><p>Apply ILT to both sides
+$$s^2Y(s)+4Y(s)=\frac{1}{s}e^{-2s}.$$ Solve for $Y(s)$
+$$Y(s)=\frac{1}{s(s^2+4)}e^{-2s}.$$ Use PFD (details skipped)
+$$Y(s)=\frac{1}{4}\left(\frac{1}{s}-\frac{s}{s^2+4}\right)e^{-2s}.$$ Use
+the second translation theorem to get</p><p>$$y(t)= \frac{1}{4}\left(1-\cos(2(t-2))\right)\mathscr{U}(t-2).$$</p></p></details></p><hr><p><strong>Exercise:</strong> Use Laplace Transform to solve the following IVP:<br>$$y&rsquo;&rsquo;(t)-2y&rsquo;(t)+y(t)=e^{2t}\mathscr{U}(t-1), \qquad y(0)=1, y&rsquo;(0)=5.$$</p><details class=spoiler id=spoiler-11><summary>Solution</summary><p><p>First, we need to compute the Laplace transform of the
+right hand side</p><p>$$\mathcal{L}\left\{e^{2t}\mathscr{U}(t-1)\right\}= e^{2}\mathcal{L}\left\{e^{2(t-1)}\mathscr{U}(t-1)\right\}=e^{2}e^{-s}\mathcal{L}\left\{e^{2t}\right\}=e^{2}\frac{e^{-s}}{s-2}.$$
+The LT of the left hand side is easy</p><p>$$\mathcal{L}\left\{y&rsquo;&rsquo;(t)-2y&rsquo;(t)+y(t)\right\}= (s-1)^2Y(s)- s -3$$
+Therefore</p><p>$$Y(s)=\frac{s+3}{(s-1)^2} +e^2 \frac{1}{(s-1)^2(s-2)} e^{-s}$$</p><p>We have</p><p>$$\mathcal{L}^{-1}\left\{\frac{s+3}{(s-1)^2}\right\} =\mathcal{L}^{-1}\left\{\frac{s-1}{(s-1)^2}+\frac{4}{(s-1)^2}\right\} =\mathcal{L}^{-1}\left\{\frac{1}{(s-1)}+\frac{4}{(s-1)^2}\right\} =e^t(1+4t)$$</p><p>and</p><p>$$\mathcal{L}^{-1}\left\{ \frac{1}{(s-1)^2(s-2)}\right\}= \mathcal{L}^{-1}\left\{-\frac{1}{s-1}-\frac{1}{(s-1)^2}+\frac{1}{s-2}\right\}=e^{2t}-e^t(t+1).$$</p><p>By applying the second translation theorem we get</p><p>$$\mathcal{L}^{-1}\left\{e^{2} \frac{e^{-s}}{(s-1)^2(s-2)}\right\}=e^{2}\left(e^{2t-2}-e^{t-1}t\right)\mathscr{U}(t-1)=\left(e^{2t}-e^{t+1}t\right)\mathscr{U}(t-1).$$</p><p>Combining the two ILT, we get $$\boxed{\boxed{
+y(t)=e^t(1+4t)+\left(e^{2t}-e^{t+1}t\right)\mathscr{U}(t-1)
+}}$$</p></p></details><hr><p><strong>Exercise:</strong> Use Laplace Transform to solve the following IVP:<br>$$y&rsquo;&rsquo;(t)-4y&rsquo;(t)+5y(t)=e^{3t}\mathscr{U}(t-2), \qquad y(0)=1, y&rsquo;(0)=0.$$</p><details class=spoiler id=spoiler-12><summary>Solution</summary><p><p>First, we need to compute the Laplace transform of the
+right hand side</p><p>$$\mathcal{L}\left\{e^{3t}\mathscr{U}(t-2)\right\}= e^{6}\mathcal{L}\left\{e^{3(t-2)}\mathscr{U}(t-1)\right\}=e^{6}e^{-2s}\mathcal{L}\left\{e^{3t}\right\}=e^{6}\frac{e^{-2s}}{s-3}.$$
+The LT of the left hand side is easy</p><p>$$\mathcal{L}\left\{y&rsquo;&rsquo;(t)-4y&rsquo;(t)+5y(t)\right\}= (s^2-4s+5)Y(s)+ s-4$$
+Therefore</p><p>$$Y(s)=\frac{s-4}{s^2-4s+5} +e^6 \frac{1}{(s^2-4s+5)(s-3)} e^{-2s}$$</p><p>We have</p><p>$$\mathcal{L}^{-1}\left\{\frac{s-4}{s^2-4s+5}\right\} =\mathcal{L}^{-1}\left\{\frac{s-2}{(s-2)^2+1}-2\frac{1}{(s-2)^2+1}\right\} =\left(\cos(t)-2\sin(t)\right)e^{2t}.$$</p><p>Using PFD (details skipped)</p><p>$$\mathcal{L}^{-1}\left\{ \frac{1}{(s^2-4s+5)(s-2)}\right\}= \frac{1}{2}\mathcal{L}^{-1}\left\{\frac{1}{s-3}-\frac{s-1}{s^2-4s+5}\right\}=\frac{1}{2}e^{3t} -\frac{e^{2t}}{2}\left(\cos(t)+\sin(t)\right).$$</p><p>By applying the second translation theorem we get</p><p>$$\mathcal{L}^{-1}\left\{e^{6} \frac{e^{-2s}}{(s^2-4s+5)(s-2)}\right\}=e^{6}\left(\frac{1}{2}e^{3(t-2)} -\frac{e^{2(t-2)}}{2}\left(\cos(t-2)+\sin(t-2)\right)\right)\mathscr{U}(t-2).$$</p><p>Combining the two ILT, we get $$\boxed{\boxed{
+y(t)=\left(\cos(t)-2\sin(t)\right)e^{2t}+e^{6}\left(\frac{1}{2}e^{3(t-2)} -\frac{e^{2(t-2)}}{2}\left(\cos(t-2)+\sin(t-2)\right)\right)\mathscr{U}(t-2)
+}}$$</p><p>It can be simplified to
+$$y(t)=e^{2t}\left[\cos(t)-2\sin(t)+\frac{1}{2}\left(e^{t} -e^{2}\left(\cos(t-2)+\sin(t-2)\right)\right)\mathscr{U}(t-2)\right]$$</p></p></details><hr><p><strong>Exercise:</strong> Use theorem 7.4.1 to compute
+$\mathcal{L}\left\{t^3\cos(t)\right\}$.</p><details class=spoiler id=spoiler-13><summary>Solution</summary><p><p>We have</p><p>$$\begin{aligned}
+\mathcal{L}\left\{t^3\cos(t)\right\}&=-\frac{\mathrm{d}^3}{\mathrm{d}s^3}\mathcal{L}\left\{\cos(t)\right\}= -\frac{\mathrm{d}^3}{\mathrm{d}s^3}\left(\frac{s}{s^2+1}\right)\\\\
+&=-\frac{\mathrm{d}^2}{\mathrm{d}s^2}\left(\frac{1-s^2}{\left(s^2+1\right)^2}\right)\\\
+&=-\frac{\mathrm{d}}{\mathrm{d}s}\left(\frac{2 s \left(s^2-3\right)}{\left(s^2+1\right)^3}\right)\\\\
+&=-\left(-\frac{6 \left(s^4-6 s^2+1\right)}{\left(s^2+1\right)^4}\right) \\\\
+&=-\frac{6 \left(s^4-6 s^2+1\right)}{\left(s^2+1\right)^4}
+\end{aligned}$$</p><p>There are other equivalent forms that have $(s^2+1)^8$ in the
+denominator.</p></p></details><hr><p><strong>Exercise:</strong> Write the following inverse Laplace transforms as
+convolutions (You do not need to evaluate the integral):</p><ol><li><p>$\displaystyle\mathcal{L}^{-1}\left\{\frac{1}{(s-4)s}\right\},\hspace{3cm}$</p></li><li><p>$\displaystyle\mathcal{L}^{-1}\left\{\frac{s}{(s^2+a^2)^2}\right\}.$</p></li><li><p>$\displaystyle\mathcal{L}^{-1}\left\{\frac{1}{(s^2-2s+2)(s^2+2s+2)}\right\}.$</p></li><li><p>$\displaystyle\mathcal{L}^{-1}\left\{\frac{s}{(s^2+4)(s^2+1)}\right\}.$</p></li></ol><details class=spoiler id=spoiler-14><summary>Solution</summary><p><ol><li><p>$$\mathcal{L}^{-1}\left\{\frac{1}{(s-4)s}\right\}=\mathcal{L}^{-1}\left\{\frac1s\right\}* \left\{\frac{1}{s-4}\right\}=(1)* (e^{4t})=\int_0^te^{4r}\ dr$$</p></li><li><p>$$\mathcal{L}^{-1}\left\{\frac{s}{(s^2+a^2)^2}\right\}=\mathcal{L}^{-1}\left\{\frac{s}{(s^2+a^2)}\right\}*\mathcal{L}^{-1}\left\{\frac{1}{(s^2+a^2)}\right\}$$</p><p>If $a\neq 0$, we have</p><p>$$\mathcal{L}^{-1}\left\{\frac{s}{(s^2+a^2)}\right\}*\mathcal{L}^{-1}\left\{\frac{1}{(s^2+a^2)}\right\}= \frac{1}{a}(\cos(a t)) * (\sin(a t))=\frac{1}{a}\int_0^t \cos(a r)\sin(a(t-r)) dr$$</p><p>If $a=0$, then</p><p>$$\mathcal{L}^{-1}\left\{\frac{s}{(s^2+a^2)^2}\right\}=\mathcal{L}^{-1}\left\{\frac{1}{s^3}\right\}= \frac{t^2}{2}.$$</p></li><li><p>$$\begin{aligned}
+\mathcal{L}^{-1}\left\{\frac{1}{(s^2-2s+2)(s^2+2s+2)}\right\}&=
+\mathcal{L}^{-1}\left\{\frac{1}{(s-1)^2+1}\right\} * \mathcal{L}^{-1}\left\{\frac{1}{(s+1)^2+1}\right\}\\
+&=(e^t\sin(t)) * (e^{-t}\sin(t))\\\
+&=\int_0^t e^{r-(t-r)}\sin(r)\sin(t-r)\ dr\\
+&=\int_0^t e^{2r-t}\sin(r)\sin(t-r)\ dr
+\end{aligned}$$</p></li><li><p>This one is very similar to (b):</p><p>$$\mathcal{L}^{-1}\left\{\frac{s}{(s^2+4)(s^2+1)}\right\}=\mathcal{L}^{-1}\left\{\frac{s}{s^2+4}\right\} * \mathcal{L}^{-1}\left\{\frac{1}{s^2+1}\right\}=(\cos(2t))*(\sin(t))=\int_0^t \cos(2r)\sin(t-r)\ dr$$</p></li></ol></p></details><hr><p><strong>Exercise:</strong> Find the following Laplace transforms without evaluating
+the integral first</p><ol><li><p>$\displaystyle\mathcal{L}\left\{\int_0^te^r \ dr\right\}$</p></li><li><p>$\displaystyle\mathcal{L}\left\{\int_0^t re^{r} \ dr\right\}$</p></li><li><p>$\displaystyle\mathcal{L}\left\{t \int_0^t r e^r \ dr\right\}$</p></li><li><p>$\displaystyle\mathcal{L}\left\{\int_0^t r\sin(r) \ dr\right\}$</p></li></ol><details class=spoiler id=spoiler-15><summary>Solution</summary><p><ol><li><p>Apply theorem 7.4.3 to get
+$$\mathcal{L}\left\{\int_0^te^r \ dr\right\} = \frac{1}{s}\mathcal{L}\left\{e^t\right\}=\frac{1}{s(s-1)}.$$</p></li><li><p>This is similar to (a),
+$$\mathcal{L}\left\{\int_0^tre^r \ dr\right\} = \frac{1}{s}\mathcal{L}\left\{te^t\right\}=\frac{1}{s(s-1)^2}.$$
+The first translation theorem can be applied to get
+$\mathcal{L}\left\{te^t\right\} = \frac{1}{(s-1)^2}$.</p></li><li><p>Use the derivative of transforms theorem to get</p><p>$$\mathcal{L}\left\{t\int_0^tre^r \ dr\right\}=-\frac{d}{ds} \mathcal{L}\left\{\int_0^tre^r \ dr\right\}=-\frac{d}{ds}\frac{1}{(s-1)^2}= \frac{3 s-1}{s^2(s-1)^3 }.$$</p></li><li><p>$$\mathcal{L}\left\{\int_0^t r\sin(r) \ dr\right\} = \frac{1}{s}\mathcal{L}\left\{t\sin(t)\right\}= \frac{-1}{s}\frac{d}{ds} \frac{1}{s^2+1}=\frac{2}{\left(s^2+1\right)^2}.$$</p></li></ol></p></details><hr><p><strong>Exercise:</strong> Use Laplace transform to the following (so called
+integro-differential equation) to find $y(t)$</p><p>$$y&rsquo;(t)=1-\sin( t)-\int_{0}^{t} y(r)\ d r,\qquad y(0)=0.$$
+<strong>Note:</strong>
+The steps are similar as for ODES: Apply LT, solve for $Y(s)$, apply
+ILT.</p><details class=spoiler id=spoiler-16><summary>Solution</summary><p><p>Apply LT to both sides to get</p><p>$$sY(s)=\frac1s-\frac{1}{s^2+1} -\frac{1}{s}Y(s)$$</p><p>This can be simplified to</p><p>$$(s^2+1)Y(s)=1-\frac{s}{s^2+1}$$
+so</p><p>$$Y(s)=\frac{1}{s^2+1}-\frac{s}{(s^2+1)^2}$$
+To compute the LT of the
+second part, we use the convolution theorem</p><p>$$\mathcal{L}^{-1}\left\{\frac{s}{(s^2+1)^2}\right\}=\mathcal{L}^{-1}\left\{\frac{s}{s^2+1}\cdot\frac{1}{s^2+1}\right\}=\int_0^t \sin(r)\cos(t-r)\ dr$$</p><p>To compute this integral we can use
+$\sin(a)\cos(b)=\frac{1}{2}\left(\sin(a+b)+\sin(a-b)\right)$</p><p>$$\begin{aligned}
+\int_0^t \sin(r)\cos(t-r)\ dr&= \frac{1}{2}\int_0^t \sin(t)\ dr+ \frac{1}{2}\int_0^t \sin(2r-t)\ dr \\
+&=\frac{1}{2}t \sin(t) +\frac{1}{2}\bigg[\frac{-\cos(2r-t)}{2}]_{r=0}^t\\
+&=\frac{1}{2}t\sin(t) +0\
+&=\frac{1}{2}t\sin(t).
+\end{aligned}$$</p><p>The final answer is</p><p>$$\boxed{y(t)=\sin(t)-\frac{1}{2}t\sin(t).}$$</p></p></details><hr><p><strong>Exercise:</strong> $f$ is a $2\pi-$periodic function, defined on $[0,2\pi)$
+by</p><p>$$f(t)=\begin{cases}
+\sin(t), & 0\le t&lt;\pi,\
+0, & \pi\le t&lt;2\pi
+\end{cases}$$</p><p>Here&rsquo;s the graph of $f$:</p><p>Find the Laplace transform of $f$.</p><details class=spoiler id=spoiler-17><summary>Solution</summary><p><p>Using the theorem about periodic functions, we have</p><p>$$F(s)=\frac{1}{1-e^{-2\pi s}} \underbrace{\int_0^{\pi}\sin(t) e^{-st} \ dt }_{\text{Let us call this }I}$$
+There are at least two ways to compute $I$:</p><ol><li><p>1st method: Integrate by parts twice and solve for $I$
+$$\begin{aligned}
+I&= \int_0^{\pi}\sin(t) e^{-st} \ dt \\
+& = \bigg[-\cos(t)e^{-st}]_{0^\pi} -s\int_0^{\pi} \cos(t)e^{-s t}\ dt\\
+& =e^{-\pi s}+1-s\int_0^{\pi} \cos(t)e^{-s t}\ dt \\
+& =e^{-\pi s}+1- s\bigg[ \sin(t)e^{-s t} \bigg]_0^\pi -s^2 \int_0^{\pi } \sin(t) e^{-st}\ dt\\
+I & =e^{-\pi s}+1-s^2I.
+\end{aligned}$$</p><p>And then you can solve for $I$ to get
+$\displaystyle I=\frac{e^{-\pi s}+1}{s^2+1}$. Finally we have</p><p>$$F(s) = \frac{1}{1-e^{-2\pi s} }\cdot \frac{e^{-\pi s}+1}{s^2+1}.$$</p><p>This can be simplified a little bit but there is no neeed for that.</p></li><li><p>2nd method: we can write $I$ as</p><p>$$\begin{aligned}
+I&= \int_0^{\infty}\sin(t)\left(1-\mathscr{U}\left(t-\pi\right)\right) e^{-st} \ dt \\
+&=\mathcal{L}\left\{\sin(t)\right\}- \mathcal{L}\left\{\sin(t)\mathscr{U}(t-\pi)\right\}\\
+& = \mathcal{L}\left\{\sin(t)\right\}+\mathcal{L}\left\{\sin(t-\pi)\mathscr{U}(t-\pi)\right\}
+\\
+& =\frac{1}{s^2+1}+\frac{e^{-\pi s}}{s^2+1}.
+\end{aligned}$$</p><p>As you can see, no integration skills were needed here. This shows
+the importance of algebraic manipulations and the basic theorems of
+Laplace transform.</p></li></ol><p><strong>Note:</strong> There are other methods to evaluate $I$. For example, if you
+are comfortable with complex numbers, you can evaluate</p><p>$$\int_0^{\pi} e^{it-st} \ dt$$
+and take the imaginary part.</p></p></details><hr><p><strong>Exercise:</strong> Use Laplace transform to solve the following system:<br>$$\begin{cases}
+x&rsquo;(t)+y&rsquo;(t)=-3x(t)+2\\
+x&rsquo;(t)-2y&rsquo;(t)=-8t \
+\end{cases}\qquad \qquad x(0)=1, \quad y(0)=-1.$$</p><details class=spoiler id=spoiler-18><summary>Solution</summary><p><p>Apply Laplace transform to both sides to get</p><p>$$\begin{bmatrix}
+s+3& s\\ s&-2s \end{bmatrix}\begin{bmatrix}\displaystyle X(s) \\\displaystyle Y(s) \end{bmatrix}= \begin{bmatrix} \displaystyle\frac{2}{s} \\\\ \displaystyle\frac{-8}{s^2}+3 \end{bmatrix}.$$</p><p>Multiply both sides with the inverse matrix to get</p><p>$$\begin{bmatrix}\displaystyle X(s) \\\displaystyle Y(s) \end{bmatrix}=
+\frac{-1}{3s(s+2)}\begin{bmatrix}
+-2s& -s\\ -s&s+3 \end{bmatrix}
+\begin{bmatrix} \displaystyle\frac{2}{s} \\\\ \displaystyle\frac{-8}{s^2}+3 \end{bmatrix} =\frac{-1}{3s(s+2)} \begin{bmatrix} \displaystyle-3s-4+\frac{8}{s} \\\\ \displaystyle 3s-\frac{8}{s}-\frac{24}{s^2}+7\end{bmatrix} .$$</p><p>Which leads to</p><p>$$\begin{cases}
+\displaystyle X(s)=\frac{1}{s+2} +\frac{4}{3s(s+2)} -\frac{8}{3s^2(s+2)}, \\\\
+\displaystyle Y(s)=\frac{-1}{s+2} +\frac{8}{3s^2(s+2)} +\frac{8}{s^3(s+2)}-\frac{7}{3s(s+2)}.
+\end{cases}$$</p><p>We notice that there are three inverse LTs to be computed, they can be
+computed using the convolution theorem easily: We know that
+$\mathcal{L}^{-1}\left\{\frac{1}{s+2}\right\}=e^{-2t}$, then</p><p>$$\mathcal{L}^{-1}\left\{\frac{1}{s(s+2)}\right\} =\int_0^t e^{-2r}\ dr =\frac{1-e^{-2t}}{2}$$</p><p>Again,</p><p>$$\mathcal{L}^{-1}\left\{\frac{1}{s^2(s+2)}\right\} =\int_0^t \frac{1-e^{-2r}}{2} dr =\frac{t}{2}-\frac{1-e^{-2t}}{4}$$</p><p>Again,</p><p>$$\mathcal{L}^{-1}\left\{\frac{1}{s^3(s+2)}\right\} =\int_0^t\frac{r}{2}-\frac{1-e^{-2r}}{4} dr =\frac{t^2}{4} -\frac{t}{4}+\frac{1-e^{-2t}}{8}$$</p><p>By putting everything together, you should get</p><p>$$\begin{cases}
+\displaystyle x(t)= \frac{4}{3}-\frac{4t}{3}-\frac{e^{-2t}}{3}, \\\\
+\displaystyle y(t) =2t^2-\frac{2t}{3}-\frac{e^{-2t}}{6} -\frac{5}{6}.
+\end{cases}$$</p></p></details><hr><p><strong>Exercise:</strong> Use Laplace transform to solve the following initial
+value problem:
+$$y&rsquo;&rsquo;(t)+y(t)=\delta(t-2\pi)+\delta(t-4\pi), \qquad \qquad y(0)=1,\ y&rsquo;(0)=0$$</p><details class=spoiler id=spoiler-19><summary>Solution</summary><p><p>Apply LT to both sides and solve the equation for $Y(s)$ to get</p><p>$$Y(s)=\frac{s}{s^2+1} +\frac{e^{-2\pi s}}{s^2+1}+\frac{e^{-4\pi s}}{s^2+1}.$$
+Apply the inverse LT to both sides (use the second translation theorem)
+to get</p><p>$$y(t)=\cos(t) +\sin(t-2\pi) \mathscr{U}(t-2\pi) +\sin(t-4\pi) \mathscr{U}(t-4\pi).$$</p><p><strong>Note:</strong> The above expression is equivalent to</p><p>$$y(t)=\cos(t) +\sin(t) \mathscr{U}(t-2\pi) +\sin(t) \mathscr{U}(t-4\pi).$$</p></p></details><hr><p><strong>Exercise:</strong> Let $a$ be a positive number, solve the following IVP</p><p>$$y&rsquo;(t)=\delta(t-a),\qquad y(0)=0.$$</p><p><em>Note:</em> This problem shows that the delta "function" is the
+"derivative" of another function that we have studied this semester.</p><details class=spoiler id=spoiler-20><summary>Solution</summary><p><p>Apply LT to both sides</p><p>$$sY(s)=e^{-a s}$$
+divide by $s$
+$$Y(s)=\frac{1}{s} e^{-a s}$$</p><p>Apply the second translation theorem to get</p><p>$$y(t)=\mathscr{U}(t-a).$$</p></p></details></div><div class=share-box><ul class=share><li><a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fhmegh.github.io%2Fpost%2Fop-methods-problem-bank%2F&text=Op+methods+problem+bank" target=_blank rel=noopener class=share-btn-twitter aria-label=twitter><i class="fab fa-twitter"></i></a></li><li><a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fhmegh.github.io%2Fpost%2Fop-methods-problem-bank%2F&t=Op+methods+problem+bank" target=_blank rel=noopener class=share-btn-facebook aria-label=facebook><i class="fab fa-facebook"></i></a></li><li><a href="mailto:?subject=Op%20methods%20problem%20bank&body=https%3A%2F%2Fhmegh.github.io%2Fpost%2Fop-methods-problem-bank%2F" target=_blank rel=noopener class=share-btn-email aria-label=envelope><i class="fas fa-envelope"></i></a></li><li><a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fhmegh.github.io%2Fpost%2Fop-methods-problem-bank%2F&title=Op+methods+problem+bank" target=_blank rel=noopener class=share-btn-linkedin aria-label=linkedin-in><i class="fab fa-linkedin-in"></i></a></li><li><a href="whatsapp://send?text=Op+methods+problem+bank%20https%3A%2F%2Fhmegh.github.io%2Fpost%2Fop-methods-problem-bank%2F" target=_blank rel=noopener class=share-btn-whatsapp aria-label=whatsapp><i class="fab fa-whatsapp"></i></a></li><li><a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fhmegh.github.io%2Fpost%2Fop-methods-problem-bank%2F&title=Op+methods+problem+bank" target=_blank rel=noopener class=share-btn-weibo aria-label=weibo><i class="fab fa-weibo"></i></a></li></ul></div><div class="media author-card content-widget-hr"><a href=https://hmegh.github.io><img class="avatar mr-3 avatar-circle" src=/authors/admin/avatar_hu9d52b0b3f0cd5d8dbc0945223497e688_2634765_270x270_fill_q75_lanczos_center.jpg alt="Haroun Meghaichi"></a><div class=media-body><h5 class=card-title><a href=https://hmegh.github.io>Haroun Meghaichi</a></h5><h6 class=card-subtitle>PhD Candidate</h6><ul class=network-icon aria-hidden=true><li><a href=mailto:haroun@vt.edu><i class="fas fa-envelope"></i></a></li><li><a href="https://scholar.google.com/citations?user=Rc8Xjh4AAAAJ" target=_blank rel=noopener><i class="ai ai-google-scholar"></i></a></li><li><a href=https://www.linkedin.com/in/haroun-meghaichi/ target=_blank rel=noopener><i class="fab fa-linkedin"></i></a></li></ul></div></div></div></article></div><div class=page-footer><div class=container><footer class=site-footer><p class="powered-by copyright-license-text">© 2022 Haroun Meghaichi. This work is licensed under <a href=https://creativecommons.org/licenses/by-nc-nd/4.0 rel="noopener noreferrer" target=_blank>CC BY NC ND 4.0</a></p><p class="powered-by footer-license-icons"><a href=https://creativecommons.org/licenses/by-nc-nd/4.0 rel="noopener noreferrer" target=_blank aria-label="Creative Commons"><i class="fab fa-creative-commons fa-2x" aria-hidden=true></i>
+<i class="fab fa-creative-commons-by fa-2x" aria-hidden=true></i>
+<i class="fab fa-creative-commons-nc fa-2x" aria-hidden=true></i>
+<i class="fab fa-creative-commons-nd fa-2x" aria-hidden=true></i></a></p><p class=powered-by>Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target=_blank rel=noopener>Wowchemy</a> — the free, <a href=https://github.com/wowchemy/wowchemy-hugo-themes target=_blank rel=noopener>open source</a> website builder that empowers creators.</p></footer></div></div><script src=/js/vendor-bundle.min.d26509351aa0ff874abbee824e982e9b.js></script>
+<script id=search-hit-fuse-template type=text/x-template>
+    <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+    </div>
+  </script><script src=https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin=anonymous></script>
+<script src=https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin=anonymous></script>
+<script id=page-data type=application/json>{"use_headroom":true}</script><script src=/js/wowchemy-headroom.db4755770454eb63685f8de785c0a172.js type=module></script>
+<script src=/en/js/wowchemy.min.e8ee06ba8371980ffde659871dd593b0.js></script><div id=modal class="modal fade" role=dialog><div class=modal-dialog><div class=modal-content><div class=modal-header><h5 class=modal-title>Cite</h5><button type=button class=close data-dismiss=modal aria-label=Close>
+<span aria-hidden=true>&#215;</span></button></div><div class=modal-body><pre><code></code></pre></div><div class=modal-footer><a class="btn btn-outline-primary my-1 js-copy-cite" href=# target=_blank><i class="fas fa-copy"></i> Copy</a>
+<a class="btn btn-outline-primary my-1 js-download-cite" href=# target=_blank><i class="fas fa-download"></i> Download</a><div id=modal-error></div></div></div></div></div><script src=/js/wowchemy-publication.68f8d7090562ca65fc6d3cb3f8f2d2cb.js type=module></script></body></html>
