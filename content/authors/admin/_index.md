@@ -10,14 +10,14 @@ last_name: Meghaichi
 superuser: true
 
 # Role/position/tagline
-role: PhD Candidate
+role: Ross Assistant Professor
 
 # Organizations/Affiliations to show in About widget
 organizations:
   - name: Department of Mathematics
-    url: https://www.math.vt.edu/
-  - name: Virginia Tech
-    url: https://www.vt.edu/
+    url: https://www.math.osu.edu/
+  - name: The Ohio State University
+    url: https://www.osu.edu/
 
 # Short bio (displayed in user profile at end of posts)
 # bio: My research centers around numerical methods for partial differential equations that model phyical phenomena in heterogeneous media. 
@@ -49,7 +49,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:haroun@vt.edu'
+    link: 'mailto:meghaichi.1@osu.edu'
   # - icon: twitter
   #   icon_pack: fab
   #   link: https://twitter.com/GeorgeCushen
@@ -82,6 +82,10 @@ email: ''
 highlight_name: true
 ---
 
-I am a PhD candidate in Mathematics at Virginia Tech, my research centers around immersed finite element methods for multi-physics models. 
+<!-- I am a PhD candidate in Mathematics at Virginia Tech, -->
+I am currently a Ross Assistant Professor in the Department of Mathematics at The Ohio State University. I obtained my PhD at Virginia Tech under the supervision of [Dr. Slimane Adjerid](https://math.vt.edu/people/faculty/adjerid-slimane.html) and [Dr. Tao Lin](https://math.vt.edu/people/faculty/lin-tao.html). 
+
+
+ My research in numerical analysis of PDEs and scientific computing. In particular, in the finite element method and the discontinuous Galerkin method.
 
 <!-- {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}. -->
