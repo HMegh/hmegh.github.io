@@ -15,7 +15,7 @@ jobs:
         with:
           root_file: content/CV/CV.tex
         env:
-            TEXINPUTS: ".:content/CV//:"
+            TEXINPUTS: ".:./content/CV//:"
       - name: Release
         uses: softprops/action-gh-release@v1
         with:
