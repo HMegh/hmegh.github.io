@@ -2,8 +2,8 @@ name: Build LaTeX Document
 
 on:
   push:
-    tags:
-      - "v*"
+    paths:
+      - content/CV/**
 jobs:
   build_latex:
     runs-on: ubuntu-latest
