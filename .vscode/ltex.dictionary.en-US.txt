@@ -8,3 +8,7 @@ Saff
 Nonhomogeneous
 Nonsingular
 Appx
+Sturm-Liouville
+Mathematica
+PDEs
+Zill
