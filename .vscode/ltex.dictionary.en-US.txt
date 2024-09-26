@@ -1,0 +1,9 @@
+Calc
+relref
+Transcendentals
+Shulz
+Riess
+Nagle
+Saff
+Nonhomogeneous
+Nonsingular
