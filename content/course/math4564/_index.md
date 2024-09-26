@@ -1,7 +1,7 @@
 
 ---
 # Course title, summary, and position.
-title: Math 4564 Operational 
+title: Math 4564 Operational methods
 linktitle: Math 4564 
 summary: I taught this class from 2020 to 2023 online.
 weight: 4564
@@ -18,19 +18,18 @@ tags:
 
 ## Description 
 
-This course covers Laplace transform for ordinary differential equations, Sturm Liouville theory, Fourier series, partial differential equations and Fourier transform.
+This course covers Laplace transform for ordinary differential equations, Sturm-Liouville theory, Fourier series, partial differential equations and Fourier transform.
 
 **Textbook:** _Differential Equations with Boundary-Value Problems_, by D. G. Zill, Cengage, 9th edition. 
 
 ## Content 
 | section | topic                                        |
 |---------|----------------------------------------------|
-|   7.1   | Definition of the Laplace transform (part 1) |
-|   7.1   | Definition of the Laplace transform (part 2) |
+|   7.1   | Definition of the Laplace transform          |
 |  7.2.1  | Inverse transforms + Intro to Mathematica    |
 |  7.2.2  | Transforms of derivatives                    |
 |  7.3.1  | Translation on the s-axis                    |
-|  7.3.2  | Translation on the  t-axis                   |
+|  7.3.2  | Translation on the t-axis                   |
 |  7.4.1  | Derivatives of transforms                    |
 |  7.4.2  | The convolution theorem                      |
 |  7.4.3  | Transforms of periodic functions             |
@@ -47,7 +46,7 @@ This course covers Laplace transform for ordinary differential equations, Sturm 
 |   12.4  | The wave equation                            |
 |   12.5  | Laplace equation                             |
 |   12.5  | Laplace equation                             |
-|   12.6  | Non Homogenous PDEs                          |
+|   12.6  | Non-Homogeneous PDEs                          |
 |   12.8  | Higher dimensional problems                  |
 |   13.1  | Laplace equation in polar coordinates        |
 |   14.2  | Laplace transform for the heat equation      |
