@@ -62,9 +62,9 @@ social:
   - icon: google-scholar # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: ai
     link: https://scholar.google.com/citations?user=Rc8Xjh4AAAAJ
-  # - icon: github
-  #   icon_pack: fab
-  #   link: https://github.com/hmegh
+  - icon: github
+    icon_pack: fab
+    link: https://github.com/hmegh
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/in/haroun-meghaichi/
