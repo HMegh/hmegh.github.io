@@ -61,7 +61,7 @@ social:
   #   link: https://scholar.google.com/citations?user=Rc8Xjh4AAAAJ
   - icon: google-scholar # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: ai
-    link: https://scholar.google.com/citations?user=Rc8Xjh4AAAAJ
+    link: https://scholar.google.com/citations?user=epIx1zIAAAAJ&hl=en
   - icon: github
     icon_pack: fab
     link: https://github.com/hmegh
